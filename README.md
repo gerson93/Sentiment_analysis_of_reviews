@@ -12,4 +12,4 @@ https://scikit-learn.org/stable/modules/naive_bayes.html
 Finally, we'll get accuracy, precision, recall and F1 parameters from each modelation, and we'll show them in a dataframe.
 
 ## Conclusion
-it seems if we use TF-IDF vector, we improve the "recall", but lossing "accuracy" and "precision". Multinomial NB model, with counts and unigrams, is better classifying between positive and negatives reviews, in our case.   
+it seems if we use TF-IDF vector, we improve the "recall", but lossing "accuracy" and "precision". Multinomial NB model, with counts and unigrams, had a better performance classifying between positive and negatives reviews, in our case. We should try the same model, with counts and bigrams, and counts with unigrams an bigrams but that is for another time.
