@@ -1,6 +1,6 @@
 # Sentiment_analysis_of_reviews
 
-We'll go over 8 different ways to analyze reviews. In this case, we will work with a dataset from Kaggle. This dataset contains reviews about a capuccino cup, with a column with star, from 1 (negative) to 5 (positive). We'll start preprocessing our reviews. We'll create other column, with "positive" label, if the review has 4 or 5 star, and other with "negative" label, if the review has 1 or 2 star. Reviews with 3 star will be drop. Finally, this column will be our target.
+We'll go over 8 different ways to analyze reviews. In this case, we will work with a dataset from Kaggle. This dataset contains reviews about a capuccino cup, with a five star column rating - 1 (negative) to 5 (positive). We'll start preprocessing our reviews. We'll create other column, with "positive" label, if the review has 4 or 5 star, and other with "negative" label, if the review has 1 or 2 star. Reviews with 3 star will be drop. Finally, this column will be our target.
 
 With our preprocessed text, we'll create two word count vector: the first with unigram and values will be word counts, and the second with unigram and bigram and values will be binary counts. Also, we'll create two tf-idf vector in the same way as the previous.
 
