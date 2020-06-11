@@ -9,7 +9,7 @@ We'll use Logistic Regressor for count and binary vector, Bernoulli Naives Bayes
 https://scikit-learn.org/stable/modules/naive_bayes.html
 
 
-Finally, we will show the confusion matrix, we'll get accuracy, precision, recall and F1 parameters from each modelation, and we'll show them in a dataframe.
+Finally, we will show the confusion matrix: we'll get accuracy, precision, recall and F1 parameters from each modelation, and we'll show them in a dataframe.
 
 ## Conclusion
 It seems if we use TF-IDF vector, we improve the "recall", but lose "accuracy" and "precision". Whereas, the Multinomial NB model, with counts and unigrams, had a better performance classifying between positive and negatives reviews, in our case. In the future, we should try the same model (MNB), with counts and bigrams, and counts with unigrams an bigrams.
